@@ -18,7 +18,7 @@ body {
   position: relative;
   width: 90%;
   max-width: 450px;
-  height: 600px;
+  height: 90vh; /* Make the card taller to fill more of the viewport */
   display: flex; /* Ensures the card is centered vertically */
   justify-content: center;
   align-items: center; /* Center vertically */
@@ -127,19 +127,14 @@ body {
 /* Mobile styling adjustments */
 @media screen and (max-width: 600px) {
   .card-container {
-    width: 100%; /* Ensure full width on smaller screens */
-    height: auto;
-  }
-
-  .card {
-    height: 400px; /* Adjust card height for mobile */
+    height: 100vh; /* Full viewport height on smaller screens */
   }
 
   .card-front h1 {
-    font-size: 28px; /* Slightly smaller text on mobile */
+    font-size: 32px;
   }
 
   .card-front p {
-    font-size: 16px; /* Slightly smaller text on mobile */
+    font-size: 22px;
   }
 }
