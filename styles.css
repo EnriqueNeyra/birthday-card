@@ -18,10 +18,10 @@ body {
   position: relative;
   width: 90%;
   max-width: 450px;
-  height: 90vh; /* Make the card taller to fill more of the viewport */
-  display: flex; /* Ensures the card is centered vertically */
+  height: 600px;
+  /* display: flex;
   justify-content: center;
-  align-items: center; /* Center vertically */
+  align-items: center; */
 }
 
 /* Card styling */
