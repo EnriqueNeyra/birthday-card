@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Birthday Card</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="🎉 Birthday Card Made For You! 🎉">
+  <meta property="og:description" content="Flip to reveal a surprise!">
+  <meta property="og:image" content="https://yourserver.com/path/to/image.jpg">
+  <meta property="og:url" content="https://yourserver.com/path/to/card.html">
+  <meta property="og:type" content="website">
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card" id="card">
+      <div class="card-face card-front">
+        <h1>🎉 &iexcl;Feliz Cumplea&ntilde;os Papa! Happy 60th Birthday! 🎉</h1>
+        <p>Hope you have a great birthday and looking forward to seeing you later this month!</p>
+        <p>Love, Enrique</p>
+        <p>P.S. I still need some gift ideas 😊</p>
+        <button class="flip-button" onclick="flipCard()"> Click for a surprise! 🎁</button>
+      </div>
+      <div class="card-face card-back">
+        <img src="https://i.pinimg.com/originals/fc/8c/4f/fc8c4fff8fbe44e779a7969d969d9ee2.gif" alt="Birthday Gif" class="gif">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
